@@ -1,5 +1,5 @@
 // MY INFURA_ID, SWAP IN YOURS FROM https://infura.io/dashboard/ethereum
-export const INFURA_ID = "460f40a260564ac4a4f4b3fffb032dad";
+export const INFURA_ID = "c71c6e8a96ae41bab8b792eeea311aa5";
 
 //MY ETHERSCAN_ID, SWAP IN YOURS FROM https://etherscan.io/myapikey
 export const ETHERSCAN_KEY = "PSW8C433Q667DVEX5BCRMGNAH9FSGFZ7Q8";
@@ -28,7 +28,7 @@ export const NETWORKS = {
         color: '#666666',
         chainId: 31337,
         blockExplorer: '',
-        rpcUrl: "http://" + window.location.hostname + ":8545",
+        rpcUrl: "https://8545-salmon-giraffe-rvx3jp68.ws-us17.gitpod.io/",
     },
     mainnet: {
         name: "mainnet",
@@ -98,5 +98,15 @@ export const NETWORKS = {
         rpcUrl: "https://rpc-mumbai.maticvigil.com",
         faucet: "https://faucet.matic.network/",
         blockExplorer: "https://mumbai-explorer.matic.today/",
+    },
+    bnb: {
+        name: "bnb",
+        color: '#92D9FA',
+        chainId: 56,
+        price: 1,
+        gasPrice:1000000000,
+        rpcUrl: "https://bsc-dataseed.binance.org/",
+        blockExplorer: "https://bscscan.com",
     }
 }
+
